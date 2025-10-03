@@ -143,7 +143,7 @@ fetch('./content.json')
   .catch(error => console.error('Error loading content:', error));
 
 // ... existing code ...
-
+//Modal 
 fetch('./content.json')
   .then(response => response.json())
   .then(content => {
